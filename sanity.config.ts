@@ -38,7 +38,8 @@ export default defineConfig({
     visionTool(),
     presentationTool({
       previewUrl: {
-        origin: 'https://sarah-khosla-2025.vercel.app',
+        initial: 'https://sarah-khosla-2025.vercel.app',
+        preview: "/",
         draftMode: {
           enable: '/api/draft-mode/enable',
         },
